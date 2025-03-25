@@ -41,7 +41,7 @@ function convertToBool(text, fault = 'true') {
 }
 module.exports = {
 SESSION_ID: process.env.SESSION_ID || "ANJU-XPRO~nV1nmBoB#MzYfrP11-6ier63RonZ67M2SHwIfAsiEf1mTC-dyVK8",
-SUDO: process.env.SUDO || ["94777580876","94743430452"],
+SUDO: process.env.SUDO || ["94777580876","94743430452","94775512050"],
 PORT: process.env.PORT || "8000",
 DATABASE_URL: process.env.DATABASE_URL === undefined ? 'postgresql://admin:npg_0leWpxvmgoh9@ep-bold-lab-a4wrf69s-pooler.us-east-1.aws.neon.tech/chamiya?sslmode=require' : process.env.DATABASE_URL,    
 FOOTER: process.env.FOOTER || "> *ＤＡＲＫＡＬＰＨＡＸＴＥＡＭ*",
