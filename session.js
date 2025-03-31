@@ -40,9 +40,9 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "ANJU-XPRO~DUdlDR4I#xOG7uTqVdfYyc69_Kiv5GjokREDSqoFdvZ1IHTzy2to",
-SUDO: process.env.SUDO || ["94777580876","94743430452","94775512050"],
+SESSION_ID: process.env.SESSION_ID || "ANJU-XPRO~yVtEzbiT#AvJxCTtk7q5o_rxT3_t7hojtYvVB-L-9o0F7kNzfZ84",
+SUDO: process.env.SUDO || ["94777580876","94743430452"],
 PORT: process.env.PORT || "8000",
 DATABASE_URL: process.env.DATABASE_URL === undefined ? 'postgresql://admin:npg_0leWpxvmgoh9@ep-bold-lab-a4wrf69s-pooler.us-east-1.aws.neon.tech/chamiya?sslmode=require' : process.env.DATABASE_URL,    
-FOOTER: process.env.FOOTER || "> ᴄ.ɴ ᴍᴏᴠɪᴇ ʜᴜʙ ʙʏ 𝙭𝘾𝙝𝙖𝙢𝙤!☁️",
+FOOTER: process.env.FOOTER || "> ʟᴏᴋᴇɴᴏ 🕊️",
 };
